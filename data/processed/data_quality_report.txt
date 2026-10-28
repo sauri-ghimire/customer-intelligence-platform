@@ -1,0 +1,24 @@
+============================================================
+DATA QUALITY REPORT
+============================================================
+
+--- RAW TABLES ---
+orders                     rows= 99,436  null%=0.6
+order_items                rows=112,650  null%=0.0
+order_payments             rows=103,886  null%=0.0
+order_reviews              rows= 99,224  null%=0.0
+customers                  rows= 99,441  null%=0.0
+products                   rows= 32,951  null%=0.2
+sellers                    rows=  3,095  null%=0.0
+category_trans             rows=     71  null%=0.0
+geolocation                rows= 19,011  null%=0.0
+
+--- PROCESSED TABLES ---
+master_orders              rows= 99,436  null%=0.5
+master_items               rows=112,650  null%=0.1
+customers                  rows= 99,441  null%=0.0
+sellers                    rows=  3,095  null%=0.0
+products                   rows= 32,951  null%=0.2
+order_payments             rows=103,886  null%=0.0
+order_reviews              rows= 99,224  null%=0.0
+geolocation                rows= 19,011  null%=0.0
